@@ -6,7 +6,7 @@ var inspect = require('util').inspect;
 var path = require('path');
 var browserify = require('browserify');
 var glob = require('glob');
-var istanbulTransform = require('browserify-istanbul');
+var istanbulTransform = require('browserify-babel-istanbul');
 var JSONStream = require('jsonstream2');
 var istanbul = require('istanbul');
 
